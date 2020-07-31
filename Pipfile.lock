@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "a04859a60d307e9d7612278eadfda85197074139b97075bf1a5b527f5006e32a"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "upnpy": {
+            "git": "https://github.com/alecello/upnpy",
+            "ref": "03f346a1ba0de51686fb12b3bc1a018196ae0c04"
+        }
+    },
+    "develop": {}
+}
