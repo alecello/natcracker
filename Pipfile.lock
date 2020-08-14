@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a04859a60d307e9d7612278eadfda85197074139b97075bf1a5b527f5006e32a"
+            "sha256": "5c5f71d175847904ae690d2cb9e5db16cebfc20ec966f845db82cd4f264abaf0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,8 +17,11 @@
     },
     "default": {
         "upnpy": {
-            "git": "https://github.com/alecello/upnpy",
-            "ref": "03f346a1ba0de51686fb12b3bc1a018196ae0c04"
+            "hashes": [
+                "sha256:f43acab6271c25d8073d0e8549cd62a349abdd0a8cb9c21d036bea6132eb632e"
+            ],
+            "index": "pypi",
+            "version": "==1.1.8"
         }
     },
     "develop": {}

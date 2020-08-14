@@ -10,8 +10,6 @@ Sometimes you just want to open ports on your gateway but don't have access to i
 
 NATCracker has an unique dependency on [UPnPy](https://github.com/5kyc0d3r/upnpy).
 
-> NOTE: As for the time of writing UPnPy has some issues with handling SOAP XML responses formatted in a certain way and XML descriptors from devices that don't provide a port in `BaseURL` during device discovery. These bugs got hopefully fixed with a [pull request](https://github.com/5kyc0d3r/upnpy/pull/8) to [5kyc0d3r/upnpy](https://github.com/5kyc0d3r/upnpy) that is currently pending review. For now, I'm linking the pipfile to my fork of the original repository on which that pull request is based. Keep in mind that my contribution is limited to only a couple of lines, and credits go to [5kyc0d3r](https://github.com/5kyc0d3r/) for providing the library that handles all the low-level communication that makes this script work. As soon as the pull request is merged or the issue is otherwise solved, I will make sure to update the Pipfile to point back to the [PyPI entry for UPnPy](https://pypi.org/project/UPnPy/).
-
 NATCracker does not require installation: to use it, just clone the repository and run `pipenv install` in the local folder. You may then use `pipenv shell` or `pipenv run` to run the script directly from the command line.
 
 The script accepts a number of command-line switches and works around a basic concept of **verbs** and **nouns**:

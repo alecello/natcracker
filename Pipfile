@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-upnpy = {git = "https://github.com/alecello/upnpy"}
+upnpy = "*"
 
 [requires]
 python_version = "3.8"
